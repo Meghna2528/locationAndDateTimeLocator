@@ -33,7 +33,7 @@ public class Main {
     FileReader filereader = null;
     try {
       filereader =
-          new FileReader("/home/chaipoint/Downloads/world-cities_zip/archive/world-cities.csv");
+          new FileReader("/home/Documents/database.csv");
     } catch (FileNotFoundException e) {
       e.printStackTrace();
     }
