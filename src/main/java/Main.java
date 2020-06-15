@@ -77,10 +77,10 @@ public class Main {
 
       dates = group.getDates();
       processDate(group);
+      for (Date date : dates) {
+        convertingDate(date);
+      }
 
-    }
-    for (Date date : dates) {
-      convertingDate(date);
     }
 
   }
